@@ -10,10 +10,10 @@ const Navbar = (props) => {
 
   return (
     <div className="header d-flex">
-      <NavLink className="navLink" to="/">
+      <NavLink className="navLink d-flex" to="/">
+        <img src={logo} alt="logo" />
         {title}
       </NavLink>
-      <img src={logo} alt="logo" />
       <div className="icons d-flex">
         <MdMic className="icon" />
         <FiSettings className="icon" />

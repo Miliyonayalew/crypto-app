@@ -4,7 +4,6 @@ import axios from 'axios';
 const initialState = {
   loading: false,
   coins: [],
-  filteredCoins: [],
   error: null,
 };
 
@@ -37,4 +36,9 @@ const coinSlice = createSlice({
 
 export default coinSlice.reducer;
 
-export const { filteredCoins } = coinSlice.actions;
+export const error = (state) => state.coin.error;
+export const loading = (state) => state.coin.loading;
+export const allcrypto = (state) => state.coin.coins;
+
+/* export const { filteredCoins } = coinSlice.actions;
+ */
