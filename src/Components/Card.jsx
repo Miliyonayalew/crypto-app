@@ -5,11 +5,33 @@ import { Link } from 'react-router-dom';
 const Card = ({ coin }) => (
   <Link to={coin.id}>
     <div className="card">
-      <div className="card__container" key={coin.id}>
-        <div className="card__container__left">
+      <div className="card__container d-flex" key={coin.id}>
+        <div className="card-header d-flex">
+          <h2>
+            {coin.rank}
+            {'. '}
+            {coin.name}
+          </h2>
           <img src={coin.icon} alt={coin.name} />
-          <h1>{coin.name}</h1>
-          <p className="card__container__left__symbol">{coin.symbol}</p>
+        </div>
+        <div className="card-body">
+          <p>
+            Symbol:
+            {' '}
+            {coin.symbol}
+          </p>
+          <p>
+            Price:
+            {' '}
+            $
+            {Math.round(coin.price * 100) / 100}
+          </p>
+          <p>
+            Daily Change:
+            {' '}
+            {coin.priceChange1d}
+            %
+          </p>
         </div>
       </div>
     </div>
@@ -22,6 +44,9 @@ Card.propTypes = {
     name: PropTypes.string.isRequired,
     symbol: PropTypes.string.isRequired,
     icon: PropTypes.string.isRequired,
+    price: PropTypes.number.isRequired,
+    priceChange1d: PropTypes.number.isRequired,
+    rank: PropTypes.number.isRequired,
   }).isRequired,
 };
 
