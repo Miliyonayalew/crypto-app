@@ -40,7 +40,7 @@ body {
 .header img {
   width: 5vh;
   height: 5vh;
-  animation:spin 4s linear infinite;
+  animation: spin 4s linear infinite;
 }
 
 @keyframes spin {
@@ -56,7 +56,7 @@ body {
 
 /* Path: Module 3\crypto-app\src\components\Home.css */
 
-.stat-container{
+.stat-container {
   padding: 0.5rem 3rem;
 }
 
@@ -65,21 +65,21 @@ body {
   justify-content: space-around;
 }
 
-.stats h2{
+.stats h2 {
   font-size: 1rem;
 }
 
-.container{
+.container {
   flex-direction: column;
   justify-content: space-between;
   padding: 1rem 3rem;
 }
 
-.search-container{
+.search-container {
   padding: 0 0 2rem;
 }
 
-.search{
+.search {
   align-items: flex-end;
   margin-left: auto;
   margin-right: auto;
@@ -90,15 +90,15 @@ body {
   border-radius: 5px;
 }
 
-.search:focus{
+.search:focus {
   outline: none;
 }
 
-.search:hover{
+.search:hover {
   border: 1px solid #000;
 }
 
-.spinner{
+.spinner {
   justify-content: center;
   align-items: center;
 }
@@ -109,7 +109,7 @@ body {
   gap: 1rem;
 }
 
-.card-container a{
+.card-container a {
   text-decoration: none;
   color: #000;
 }
@@ -124,36 +124,36 @@ body {
   box-shadow: 0 3px 5px 0 rgba(253, 224, 224, 0.1);
 }
 
-.card:hover{
+.card:hover {
   box-shadow: 0 3px 5px 0 rgba(126, 124, 124, 0.5);
 }
 
-.card__container{
+.card__container {
   flex-direction: column;
   justify-content: space-between;
   align-items: flex-start;
 }
 
-.card-header{
- flex-direction: row;
- justify-content: space-between;
- align-items: center;
- width: 100%;
- border-bottom: 1px solid #e0e0e0;
+.card-header {
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  border-bottom: 1px solid #e0e0e0;
 }
 
-.card-header h2{
+.card-header h2 {
   font-size: 1.5rem;
   font-weight: 500;
 }
 
-.card-header img{
+.card-header img {
   width: 8vh;
 }
 
 /* Path: Module 3\crypto-app\src\components\Detail.css */
 
-.container-detail{
+.container-detail {
   padding: 1rem 1rem;
 }
 
@@ -162,16 +162,16 @@ body {
   padding: 0.5rem 0.5rem 1rem;
 }
 
-.detail-header img{
+.detail-header img {
   width: 15vh;
 }
 
-.detail-header h2{
+.detail-header h2 {
   font-size: 2rem;
   font-weight: 500;
 }
 
-.card-detail{
+.card-detail {
   flex-direction: column;
   width: 100%;
   padding: 0.2rem 0.8rem;
@@ -184,27 +184,25 @@ body {
   justify-content: space-between;
 }
 
-.card-body-detail:nth-child(even){
+.card-body-detail:nth-child(even) {
   background-color: #e0e0e0;
 }
 
-.card-body-detail a{
+.card-body-detail a {
   text-decoration: none;
 }
 
-.card-title{
+.card-title {
   font-size: 1.3rem;
   margin: 0.5rem;
 }
 
-
 @media screen and (max-width: 768px) {
-
-  .stats{
+  .stats {
     flex-direction: column;
     align-items: center;
   }
- 
+
   .search {
     width: 80%;
     font-size: 1rem;
@@ -218,6 +216,4 @@ body {
     align-items: center;
     flex-direction: column;
   }
-
 }
-  
