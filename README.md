@@ -102,7 +102,7 @@ To get a local copy up run the following steps.
 - Vscode(optional)
 
 ### Setup
-  - Clone the repository to your local machine using `git clone https://github.com/Miliyonayalew/bookstore.git`  command.
+  - Clone the repository to your local machine using `git clone https://github.com/Miliyonayalew/crypto-app.git`  command.
 
   - Change directory into project folder `cd math-magicians`
 
