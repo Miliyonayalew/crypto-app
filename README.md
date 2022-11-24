@@ -113,7 +113,7 @@ To get a local copy up and running, follow these steps.
 To run the project, execute the following command:
 - Run `npm start`
   
-- A new browser will open automatically by using this address [http://localhost:3000](https://stately-moonbeam-331ae3.netlify.app/#/) 
+- A new browser will open automatically by using this address http://localhost:3000 
   
 -  The page will reload when you make changes.
 
@@ -165,6 +165,9 @@ Give a ⭐️ if you like this project!
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
   ![](https://img.shields.io/badge/Microverse-blueviolet)
+
+   [Nelson Sakwa author of the original design](https://www.behance.net/gallery/31579789/Ballhead-App-(Free-PSDs))
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

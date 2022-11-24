@@ -7,6 +7,7 @@ import {
   allcrypto,
 } from '../redux/features/coinSlice';
 import Card from './Card';
+import logo from '../assest/logo.png';
 
 let didInit = false;
 const Home = () => {
@@ -36,26 +37,29 @@ const Home = () => {
       ) || coin.rank.toString().includes(search.toString()),
   ) : [];
   return (
-    <div>
+    <div className="app-container">
       <Navbar title="Crypto App" />
       <div className="stat-container">
         <h1 className="title">Crypto Stats</h1>
         <div className="stats d-flex">
-          <div>
-            <h2>Market Cap</h2>
-            <p>
-              {coins[0]?.marketCap}
-              {' '}
-              B
-            </p>
-          </div>
-          <div>
-            <h2>24h Volume</h2>
-            <p>
-              {coins[0]?.volume}
-              {' '}
-              B
-            </p>
+          <img src={logo} alt="logo" />
+          <div className="stats-data d-flex">
+            <div>
+              <h2>Market Cap</h2>
+              <p>
+                {coins[0]?.marketCap}
+                {' '}
+                B
+              </p>
+            </div>
+            <div>
+              <h2>24h Volume</h2>
+              <p>
+                {coins[0]?.volume}
+                {' '}
+                B
+              </p>
+            </div>
           </div>
         </div>
       </div>
@@ -69,6 +73,7 @@ const Home = () => {
             value={search}
           />
         </div>
+        <h2>Top 100 Cryptocurrencies</h2>
         <div className="d-flex spinner">
           {Loading && <Spinner />}
           {Error && <h1>{Error}</h1>}

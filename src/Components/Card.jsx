@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import { Link } from 'react-router-dom';
 
 const Card = ({ coin }) => (
-  <Link to={coin.id}>
+  <Link to={`/coins/${coin.id}`}>
     <div className="card">
       <div className="card__container d-flex" key={coin.id}>
         <div className="card-header d-flex">

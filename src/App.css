@@ -9,7 +9,6 @@ body {
   padding: 0;
   font-family: 'Roboto', sans-serif;
   background-color: #f5f5f5;
-  width: 100%;
 }
 
 .d-flex {
@@ -58,11 +57,24 @@ body {
 
 .stat-container {
   padding: 0.5rem 3rem;
+  margin: 0.2rem;
 }
 
 .stats {
   padding: 0 3rem;
-  justify-content: space-around;
+  justify-content: space-evenly;
+}
+
+.stats img {
+  width: 20vh;
+  height: 20vh;
+  animation: spin 4s linear infinite;
+}
+
+.stats-data {
+  flex-direction: column;
+  padding: 0.5rem 0;
+  gap: 1rem;
 }
 
 .stats h2 {
@@ -73,10 +85,6 @@ body {
   flex-direction: column;
   justify-content: space-between;
   padding: 1rem 3rem;
-}
-
-.search-container {
-  padding: 0 0 2rem;
 }
 
 .search {
@@ -105,7 +113,7 @@ body {
 
 .card-container {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 24% 24% 24% 24%;
   gap: 1rem;
 }
 
@@ -199,8 +207,9 @@ body {
 
 @media screen and (max-width: 768px) {
   .stats {
-    flex-direction: column;
-    align-items: center;
+    justify-content: space-evenly;
+    gap: 2rem;
+    padding: 1rem;
   }
 
   .search {
@@ -208,12 +217,25 @@ body {
     font-size: 1rem;
   }
 
+  .container {
+    padding: 1rem 1rem;
+  }
+
   .card-container {
-    grid-template-columns: 1fr;
+    grid-template-columns: 48% 48%;
   }
 
   .card-body-detail {
     align-items: center;
     flex-direction: column;
+  }
+
+  .card-header h2 {
+    font-size: 1rem;
+    font-weight: 500;
+  }
+
+  .card-header img {
+    width: 5vh;
   }
 }

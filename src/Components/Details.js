@@ -28,10 +28,10 @@ const Details = () => {
             <p className="card-title">Name</p>
             <p className="card-title">{coin.name}</p>
           </div>
-          <li className="card-body-detail d-flex">
+          <div className="card-body-detail d-flex">
             <p className="card-title">Symbol</p>
             <p className="card-title">{coin.symbol}</p>
-          </li>
+          </div>
           <div className="card-body-detail d-flex">
             <p className="card-title">Price to USD</p>
             <p className="card-title">
