@@ -86,7 +86,7 @@
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🚀 Video <a name="video"></a> 
-[![Watch the video](src/assest/mock.png)](src/assest/react-redux%20crypto%20app.mp4)
+- [Video](https://drive.google.com/file/d/1NTraAiGeP9Svb0BsyHJmJzkCpdLEVc_l/view?usp=sharing)
 
 <!-- GETTING STARTED -->
 
