@@ -16,7 +16,6 @@ describe('Test the Components', () => {
     );
     expect(home).toMatchSnapshot();
   });
-
   test('Renders Home with correct text', () => {
     const home = render(
       <Provider store={store}>
@@ -28,5 +27,6 @@ describe('Test the Components', () => {
     expect(home.getByText('Crypto Stats')).toBeInTheDocument();
     expect(home.getByText('Market Cap')).toBeInTheDocument();
     expect(home.getByText('24h Volume')).toBeInTheDocument();
+    expect(home.getByText('Top 100 Cryptocurrencies')).toBeInTheDocument();
   });
 });
