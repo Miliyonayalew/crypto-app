@@ -3,10 +3,10 @@
 
 <div align="center">
 
-  <img src="src/assests/logo.png" alt="logo" width="140"  height="auto" />
+  <img src="src/assest/logo.png" alt="logo" width="140"  height="auto" />
   <br/>
 
-  <h3><b>Space Travelers Hub</b></h3>
+  <h3><b>Crypto App</b></h3>
 
 </div>
 
@@ -70,9 +70,9 @@
 ### Key Features <a name="key-features"></a>
 
 
-- **Display Cryptocurrencies**
-- **Search Cryptocurrencies**
-- **See details of Cryptocurrencies**
+- **When the page loads, the app shows a list of cryptocurrencies by filtering using parameters like name and display Cryptocurrencies**
+- **The the user can search Cryptocurrencies by using name, symbol and rank**
+- **When the user click on each Cryptocurrencies card the application navigate to detail page and see details of the Cryptocurrencies**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
