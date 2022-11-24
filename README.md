@@ -86,7 +86,9 @@
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🚀 Video <a name="video"></a> 
-- [Video](https://drive.google.com/file/d/1NTraAiGeP9Svb0BsyHJmJzkCpdLEVc_l/view?usp=sharing)
+
+
+https://user-images.githubusercontent.com/35680940/203757106-223aadb5-1a84-4171-991e-0a3cc7de976b.mp4
 
 
 ## 💻 Getting Started <a name="getting-started"></a>
