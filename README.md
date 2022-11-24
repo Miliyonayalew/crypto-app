@@ -20,6 +20,7 @@
     - [Tech Stack ](#tech-stack-)
     - [Key Features ](#key-features-)
   - [🚀 Live Demo ](#-live-demo-)
+  - [🚀 Video ](#-video-)
   - [💻 Getting Started ](#-getting-started-)
     - [Prerequisites](#prerequisites)
     - [Setup](#setup)
@@ -81,9 +82,12 @@
 ## 🚀 Live Demo <a name="live-demo"></a>
 
 
-- [Live Demo Link](https://rad-cat-cbc90c.netlify.app/)
+- [Live Demo Link](https://poetic-lokum-2abf1e.netlify.app/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 🚀 Video <a name="video"></a> 
+- [Video](https://drive.google.com/file/d/1NTraAiGeP9Svb0BsyHJmJzkCpdLEVc_l/view?usp=sharing)
 
 <!-- GETTING STARTED -->
 
