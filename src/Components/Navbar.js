@@ -9,7 +9,7 @@ const Navbar = (props) => {
   const { title } = props;
 
   return (
-    <div className="header d-flex">
+    <div className="header d-flex" data-testid="testNavbar">
       <NavLink className="navLink d-flex" to="/">
         <img src={logo} alt="logo" />
         {title}
