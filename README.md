@@ -88,7 +88,6 @@
 ## 🚀 Video <a name="video"></a> 
 - [Video](https://drive.google.com/file/d/1NTraAiGeP9Svb0BsyHJmJzkCpdLEVc_l/view?usp=sharing)
 
-<!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
