@@ -27,7 +27,6 @@
     - [Usage](#usage)
     - [Run tests](#run-tests)
   - [👤 Author ](#-author-)
-  - [🔭 Future Features ](#-future-features-)
   - [🤝 Contributing ](#-contributing-)
   - [⭐️ Show your support ](#️-show-your-support-)
   - [🙏 Acknowledgments ](#-acknowledgments-)
@@ -47,7 +46,7 @@
 - GitFlow
 - Redux
   
-<img src="src/assests/mock.png" alt="logo"   height="auto" />
+<img src="src/assest/mock.png" alt="logo"   height="auto" />
 
 </br>
 
@@ -143,14 +142,6 @@ To run tests, run the following command:
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FUTURE FEATURES -->
-
-## 🔭 Future Features <a name="future-features"></a>
-
-
-- [ ] **Enhance the My Profile section by adding the "Read more" button.**
-
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- CONTRIBUTING -->
 
